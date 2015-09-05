@@ -38,12 +38,11 @@
   "devDependencies": {
     "babel": "^5.8.23",
     "espower-babel": "^3.3.0",
-    "glob": "^5.0.14",
-    "json2lcov": "^0.1.7",
     "mocha": "^2.3.0",
     "power-assert": "^1.0.0"
   },
   "dependencies": {
-    "glob": "^5.0.14"
+    "glob": "^5.0.14",
+    "json2lcov": "^0.1.7"
   }
 }
