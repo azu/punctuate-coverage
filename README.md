@@ -1,6 +1,6 @@
 # punctuate-coverage
 
-Line paragraph coverage tools.
+Line paragraph coverage tools for Japanese language.
 
 ## Installation
 
