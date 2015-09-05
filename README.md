@@ -1,18 +1,21 @@
-# Project Name
+# punctuate-coverage
 
-- [ ] Write a project description
+Line paragraph coverage tools.
 
 ## Installation
 
-- [ ] Describe the installation process
+    npm install punctuate-coverage
 
 ## Usage
 
-- [ ] Write usage instructions
+    # https://github.com/cainus/codecov.io
+    $ punctuate-coverage "docs/**/*.md" | codecov
+    # https://github.com/nickmerwin/node-coveralls
+    $ punctuate-coverage "docs/**/*.md" | coverage
 
 ## Tests
 
-- [ ] Write How to Tests
+    npm test
 
 ## Contributing
 
