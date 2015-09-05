@@ -42,5 +42,8 @@
     "json2lcov": "^0.1.7",
     "mocha": "^2.3.0",
     "power-assert": "^1.0.0"
+  },
+  "dependencies": {
+    "glob": "^5.0.14"
   }
 }
