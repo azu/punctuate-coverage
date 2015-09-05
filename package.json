@@ -1,0 +1,38 @@
+{
+  "name": "punctuate-coverage",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/punctuate-coverage.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/punctuate-coverage",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/punctuate-coverage/issues"
+  },
+  "version": "1.0.0",
+  "description": "日本語の文章のコードカバレッジ風",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib --source-maps",
+    "watch": "babel src --out-dir lib --watch --source-maps",
+    "prepublish": "npm run --if-present build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "japanese",
+    "coverage"
+  ],
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "espower-babel": "^3.3.0",
+    "glob": "^5.0.14",
+    "json2lcov": "^0.1.7",
+    "mocha": "^2.3.0",
+    "power-assert": "^1.0.0"
+  }
+}
